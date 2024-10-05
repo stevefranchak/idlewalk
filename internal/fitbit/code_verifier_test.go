@@ -34,6 +34,7 @@ func toBigIntPointerSlice(nums []int) []*big.Int {
 
 func TestCodeVerifier(t *testing.T) {
 	gen := &mockRandIntGenerator{
+		// indices into CodeVerifierCharset
 		values: toBigIntPointerSlice([]int{
 			48, 23, 17, 51, 56, 43, 26, 53, 38, 32, 53, 47, 53, 37, 23, 58, 0, 16, 31, 56, 32, 41, 49, 57, 53, 61, 46, 20,
 			25, 56, 15, 54, 26, 3, 18, 57, 50, 46, 13, 23, 20, 23, 61, 7, 14, 51, 0, 14, 37, 39, 46, 8, 32, 1, 23, 31, 30,
