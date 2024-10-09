@@ -11,8 +11,5 @@ services:
       - "idlewalk"
     volumes:
       - smtp4dev-data:/smtp4dev
-    # environment:
-    # - ServerOptions__Urls=http://*:80
-    # - ServerOptions__HostName=smtp4dev
 volumes:
   smtp4dev-data:
